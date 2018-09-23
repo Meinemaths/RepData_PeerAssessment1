@@ -127,7 +127,8 @@ plot(steps_per_interval$interval,
      ylab = "Average steps per interval")
 ```
 
-![](figs/fig-unnamed-chunk-5-1.png)<!-- -->
+![Steps_per_interval](instructions_fig/Steps_per_interval.png) 
+
 
 ```r
 dev.copy(png, file = "Steps_per_interval.png", height = 480, width = 480)
@@ -196,7 +197,8 @@ hist(steps_per_day_2,
      main = "Histogram of the total number of steps per day")
 ```
 
-![](figs/fig-unnamed-chunk-9-1.png)<!-- -->
+![Daily_steps_NA](instructions_fig/Daily_steps_NA.png) 
+
 
 ```r
 dev.copy(png, file = "Daily_steps_NA.png", height = 480, width = 480)
@@ -270,7 +272,8 @@ xyplot(average_steps~interval|day,
             type = "l")
 ```
 
-![](figs/fig-unnamed-chunk-12-1.png)<!-- -->
+![workday_weekend](instructions_fig/workday_weekend.png) 
+
 
 ```r
 dev.copy(png, file = "workday_weekend.png", height = 480, width = 480)
