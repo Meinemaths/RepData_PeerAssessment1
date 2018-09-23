@@ -71,7 +71,25 @@ hist(steps_per_day$total_steps,
       main = "Histogram of the total number of steps per day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](figs/instruction_fig-unnamed-chunk-3-1.png)<!-- -->
+
+```r
+dev.copy(png, file = "Daily_steps.png", height = 480, width = 480)
+```
+
+```
+## png 
+##   3
+```
+
+```r
+dev.off()
+```
+
+```
+## png 
+##   2
+```
 
 The mean and median are calculated:
 
@@ -108,7 +126,25 @@ plot(steps_per_interval$interval,
      ylab = "Average steps per interval")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](figs/instruction_fig-unnamed-chunk-5-1.png)<!-- -->
+
+```r
+dev.copy(png, file = "Steps_per_interval.png", height = 480, width = 480)
+```
+
+```
+## png 
+##   3
+```
+
+```r
+dev.off()
+```
+
+```
+## png 
+##   2
+```
 
 The interval with the highest average number of steps is:
 
@@ -159,7 +195,25 @@ hist(steps_per_day_2,
      main = "Histogram of the total number of steps per day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](figs/instruction_fig-unnamed-chunk-9-1.png)<!-- -->
+
+```r
+dev.copy(png, file = "Daily_steps_NA.png", height = 480, width = 480)
+```
+
+```
+## png 
+##   3
+```
+
+```r
+dev.off()
+```
+
+```
+## png 
+##   2
+```
 
 The calculated mean and median of the total number of steps per day:
 
@@ -215,5 +269,22 @@ xyplot(average_steps~interval|day,
             type = "l")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+![](figs/instruction_fig-unnamed-chunk-12-1.png)<!-- -->
+
+```r
+dev.copy(png, file = "workday_weekend.png", height = 480, width = 480)
+```
+
+```
+## png 
+##   3
+```
+
+```r
+dev.off()
+```
+
+```
+## png 
+##   2
 ```
