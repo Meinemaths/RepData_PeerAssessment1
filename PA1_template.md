@@ -71,7 +71,8 @@ hist(steps_per_day$total_steps,
       main = "Histogram of the total number of steps per day")
 ```
 
-![](figs/fig-unnamed-chunk-3-1.png)<!-- -->
+![Daily_steps](instructions_fig/Daily_steps.png) 
+
 
 ```r
 dev.copy(png, file = "Daily_steps.png", height = 480, width = 480)
